@@ -23,7 +23,6 @@ class World:
 
                 tile = self.map[y][x]
 
-                # Получаем текстуру клетки
                 if tile == 0:
                     texture = self.textures["grass"]
 
